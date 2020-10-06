@@ -1,13 +1,13 @@
 import random
 import time
 print("Hello! What's Your Name?")
-g = input()
-print("Sup! ",g," Let's Play A Game")
+name = input()                    # using meaningful variables increase readability
+print("Sup!", name ,"Let's Play A Game") # comma(,) in print statements add blankspace on its own. no need to add blank spaces sepeartely
 time.sleep(1)
 print("You'll Guess A Number And I'll Help You Find It!")
 time.sleep(2)
 print("Let's Do It!")
-n = random.randint(0,10)
+n = random.randint(0,11)  #random.randint(start, stop+1)
 time.sleep(2)
 print("Choose A Number From 1 to 10")
 time.sleep(3)
